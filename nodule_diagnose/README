@@ -1,0 +1,9 @@
+1.get_data(image, mask)
+  image: raw data returned by the SimpleITK
+  return: samples: a list contains the roi objects
+          label_img: labeled image
+2.malignancy_infer(samples, mini_bs=30, pred=0.60)
+  return: a dict like {label name of the sample: prediction of the model(1 represent positive; 0 represent negtive), ....}
+
+3.lobulation_infer()
+4.spiculation()

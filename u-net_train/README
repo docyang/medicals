@@ -1,0 +1,13 @@
+Goals: 1.Detect the pulmonary nodule from the CT scans.
+       2.Diagnose the sick.
+
+Steps: 1.Nodule Detection using U-Net or FCN or Faster-RCNN or SSD.
+       2.Lung segmentation using classical ways.
+       3.Blob detection after lung segmentation.
+       4.False psotive reduction using 3D CNN.
+       5.Malignancy prediction for diagnose.
+
+1st: check out the data include *mhd, csv; get the image and mask for training the nodule
+            segmentation using U-Net.
+2nd: train the U-Net
+3rd: using the model to segment the raw data
